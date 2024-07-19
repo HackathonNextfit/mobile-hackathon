@@ -4,8 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94784637-f557-4e0b-94fe-1bf5f6dd582b" name="Changes" comment="Removendo projeto do git">
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/login.tsx" afterDir="false" />
+    <list default="true" id="94784637-f557-4e0b-94fe-1bf5f6dd582b" name="Changes" comment="Adicionando projeto no github">
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/interfaces/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/keys/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/auth/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/base/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/base/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/enum/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/enum/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/perfilAcesso/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/perfilAcesso/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/usuario/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/services/usuario/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/bemvindo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/EnumHttpCodes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/keys/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/keys/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useAmbienteUsuario/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useAmbienteUsuario/util/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/usePermission/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/usePermission/util/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/explore.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,24 +65,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Desenvolvimento/mobile-hackathon/app/(tabs)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Desenvolvimento\\mobile-hackathon\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Desenvolvimento/mobile-hackathon/app/(tabs)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.start.executor": "Run",
+    "ts.external.directory.path": "C:\\Desenvolvimento\\mobile-hackathon\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Desenvolvimento\mobile-hackathon\app\(tabs)" />
+      <recent name="C:\Desenvolvimento\mobile-hackathon\hooks" />
+      <recent name="C:\Desenvolvimento\mobile-hackathon\api\services" />
+      <recent name="C:\Desenvolvimento\mobile-hackathon\enums" />
+      <recent name="C:\Desenvolvimento\mobile-hackathon\api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Desenvolvimento\mobile-hackathon" />
@@ -95,7 +129,7 @@
       <workItem from="1721334419974" duration="3640000" />
       <workItem from="1721387610958" duration="1101000" />
       <workItem from="1721388774751" duration="65000" />
-      <workItem from="1721388860048" duration="3494000" />
+      <workItem from="1721388860048" duration="10328000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando projeto ao git.">
       <option name="closed" value="true" />
@@ -121,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721388937856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando projeto no github">
+      <option name="closed" value="true" />
+      <created>1721392836207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721392836207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando projeto ao git." />
     <MESSAGE value="Removendo projeto do git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removendo projeto do git" />
+    <MESSAGE value="Adicionando projeto no github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando projeto no github" />
   </component>
 </project>

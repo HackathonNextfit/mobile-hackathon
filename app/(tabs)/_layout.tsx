@@ -4,16 +4,9 @@ import React from 'react';
 import {TabBarIcon} from '@/components/navigation/TabBarIcon';
 import {Colors} from '@/constants/Colors';
 import {useColorScheme} from '@/hooks/useColorScheme';
-import TabLogin from '@/app/(tabs)/login';
 
 export default function TabLayout() {
     const colorScheme = useColorScheme();
-
-    const autenticado = false;
-
-    if (!autenticado) {
-        return <TabLogin/>
-    }
 
     return (
         <Tabs
@@ -24,18 +17,18 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="index"
                 options={{
-                    title: 'Home',
+                    title: 'Login',
                     tabBarIcon: ({color, focused}) => (
-                        <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color}/>
+                        <TabBarIcon name={focused ? 'log-in' : 'log-in-outline'} color={color}/>
                     ),
                 }}
             />
             <Tabs.Screen
-                name="explore"
+                name="bemvindo"
                 options={{
-                    title: 'Explore',
+                    title: 'Bem vindo',
                     tabBarIcon: ({color, focused}) => (
-                        <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color}/>
+                        <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color}/>
                     ),
                 }}
             />
