@@ -4,29 +4,25 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import {ThemedText} from '@/components/ThemedText';
 import {ThemedView} from '@/components/ThemedView';
 import {HelloWave} from '@/components/HelloWave';
-import {useEffect, useRef, useState} from 'react';
-import {Text, Spinner, VStack, Button, HStack} from 'native-base';
+import {useRef, useState} from 'react';
+import {VStack, Button, HStack, Input} from 'native-base';
 import {setRefreshToken, setToken} from '@/api';
 import {token} from '@/api/services/auth';
 import usuarioService from '@/api/services/usuario';
 import enumService from '@/api/services/enum';
-import {getEnum, setStorageEnum} from '@/enums/utils';
+import {setStorageEnum} from '@/enums/utils';
 import {setAmbienteUsuario} from '@/hooks/useAmbienteUsuario/util';
 import perfilAcessoService from '@/api/services/perfilAcesso';
 import {setPermissoes} from '@/hooks/usePermission/util';
 import _ from 'lodash';
-import useAmbienteUsuario from '@/hooks/useAmbienteUsuario';
-import usePermission from '@/hooks/usePermission';
 
-export default function HomeScreen() {
-
-    const {recuperarUsuarioLogado} = useAmbienteUsuario()
+export default function LoginScreen() {
 
     const [loadingLogin, setLoadingLogin] = useState<boolean>(false);
-    const [email] = useState('usuariohackaton@nextfit.com.br');
-    const [password] = useState('123456a');
-    const [codigoTenant] = useState('7');
-    const [codigoUnidade] = useState('7');
+    const [email, setEmail] = useState('usuariohackaton@nextfit.com.br');
+    const [password, setPassword] = useState('123456a');
+    const [codigoTenant, setCodigoTenant] = useState('7');
+    const [codigoUnidade, setCodigoUnidade] = useState('7');
     const codigoUsuario = useRef(0);
 
     const recuperarPermissoes = async () => {
@@ -102,12 +98,6 @@ export default function HomeScreen() {
         }
     };
 
-    const tiposDeTreino = getEnum('EnumTipoTreino');
-    const {possuiPermissao} = usePermission();
-
-    const temPermissaoVisualizarCadastroDeCliente = possuiPermissao('ClientesCadastrar');
-
-    const ambienteUsuario = recuperarUsuarioLogado();
     return (
         <ParallaxScrollView
             headerBackgroundColor={{light: '#A1CEDC', dark: '#142125'}}
@@ -125,9 +115,19 @@ export default function HomeScreen() {
                         <HelloWave/>
                     </HStack>
 
-                    <Button width='full' isLoading={loadingLogin} isLoadingText='Realizando login...' onPress={onClickLogin}>
-                        Realizar login fixo
+                    <Input value={email} placeholder="Email" onChangeText={(text) => setEmail(text)}/>
+                    <Input value={password} type='password' placeholder="Senha"
+                           onChangeText={(text) => setPassword(text)}/>
+                    <Input value={codigoTenant} placeholder="Código Tenant"
+                           onChangeText={(text) => setCodigoTenant(text)}/>
+                    <Input value={codigoUnidade} placeholder="Código Unidade"
+                           onChangeText={(text) => setCodigoUnidade(text)}/>
+
+                    <Button width='full' isLoading={loadingLogin} isLoadingText='Realizando login...'
+                            onPress={onClickLogin}>
+                        ENTRAR
                     </Button>
+
                 </VStack>
             </ThemedView>
 

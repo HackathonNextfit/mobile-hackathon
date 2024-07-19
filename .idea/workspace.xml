@@ -5,37 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94784637-f557-4e0b-94fe-1bf5f6dd582b" name="Changes" comment="Adicionando projeto no github">
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/interfaces/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/keys/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/auth/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/auth/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/base/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/base/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/enum/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/enum/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/perfilAcesso/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/perfilAcesso/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/usuario/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/services/usuario/interfaces/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/bemvindo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums/EnumHttpCodes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums/keys/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/keys/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useAmbienteUsuario/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useAmbienteUsuario/util/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/usePermission/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/usePermission/util/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/explore.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/login.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +101,7 @@
       <workItem from="1721334419974" duration="3640000" />
       <workItem from="1721387610958" duration="1101000" />
       <workItem from="1721388774751" duration="65000" />
-      <workItem from="1721388860048" duration="10328000" />
+      <workItem from="1721388860048" duration="10829000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionando projeto ao git.">
       <option name="closed" value="true" />
@@ -163,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721392836207</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adicionando projeto no github">
+      <option name="closed" value="true" />
+      <created>1721400353142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721400353142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

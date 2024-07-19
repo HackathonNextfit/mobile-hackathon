@@ -11,6 +11,7 @@ export default function TabLayout() {
     return (
         <Tabs
             screenOptions={{
+                unmountOnBlur: true,
                 tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
                 headerShown: false,
             }}>
@@ -26,6 +27,7 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="bemvindo"
                 options={{
+                    unmountOnBlur: true,
                     title: 'Bem vindo',
                     tabBarIcon: ({color, focused}) => (
                         <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color}/>
