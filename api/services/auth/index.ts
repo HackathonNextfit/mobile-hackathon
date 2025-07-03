@@ -3,7 +3,7 @@ import axios from 'axios';
 import {IRefreshTokenResponse, IToken, ITokenResponse} from './interfaces';
 import SyncStorage from 'sync-storage';
 
-const apiURL = 'https://api.sandbox.appnext.fit/api/'
+const apiURL = 'https://api-sandbox.appnext.fit/api/'
 
 export const refreshToken = async () => {
     const data = qs.stringify({
